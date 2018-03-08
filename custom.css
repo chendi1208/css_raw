@@ -1,10 +1,6 @@
 body {
   color: #506784;
-  background:
-    linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+  background: #FDF9F0;
   margin: 0px;
 }
 
@@ -15,15 +11,15 @@ body {
 
 /* Header */
 .header {
-  height: 50px;
-  -webkit-box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-  -moz-box-shadow:    0px 0px 0px 0px rgb(255, 255, 255);
-  box-shadow:         0px 0px 0px 0px rgb(255, 255, 255);
-  margin-bottom: 40px;
-  background-color: #034f84;
+  height: 60px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(100, 100, 100, 0.1);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(100, 100, 100, 0.1);
+  box-shadow:         0px 5px 5px 0px rgba(100, 100, 100, 0.1);
+  margin-bottom: 50px;
+  background-color: #30305B;
 }
 
-.header .links {
+/* .header .links {
   display: inline-block;
   float: right;
   text-transform: uppercase;
@@ -59,15 +55,15 @@ body {
   border-bottom: #119DFF 2px solid;
   color: #2A3F5F;
   height: 59px;
-}
+} */
 
 
 .header .logo {
-  height: 100%;
+  height: 95%;
 }
 
 .header .logo-link {
-  background-color: white;
+  background-color: #30305B;
 }
 
 /* Example Container */
@@ -80,7 +76,7 @@ body {
 
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Roboto, Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #2A3F5F;
 }
@@ -92,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 .example-container h5,
 .example-container h6 {
   font-weight: 300;
-  font-family: Roboto, "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(50, 50, 50);
 }
 
@@ -112,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 .toc ul li a {
   background-color: white;
   color: #506784;
-  font-family: Roboto, Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .toc ul li {
@@ -168,11 +164,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-container {
-  background-color: white;
-  border-radius: 2px;
+  background-color: #FDF9F0;
+/*   border-radius: 2px; */
   font-size: 1.7rem;
-  box-shadow: rgb(240, 240, 240) 0px 0px 0px 0px;
-  border: thin solid rgb(240, 240, 240);
+/*   box-shadow: rgb(240, 240, 240) 1px 1px 1px 0px; */
+/*   border: thin solid rgb(240, 240, 240); */
   margin-bottom: 100px;
 }
 
@@ -232,5 +228,12 @@ h1, h2, h3, h4, h5, h6 {
    .container-width {
      width: 80%;
      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+   .container-width {
+     width: 92%;
+     max-width: 1400px;
   }
 }
