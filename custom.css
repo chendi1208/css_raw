@@ -76,7 +76,7 @@ body {
 
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #2A3F5F;
 }
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 .toc ul li a {
   background-color: white;
   color: #506784;
-  font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .toc ul li {
