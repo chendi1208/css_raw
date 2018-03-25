@@ -13,12 +13,12 @@ body {
  }
  .page {
 	  position: relative;
-	  width: 210mm;
-	  min-height: 300mm;
+	  width: 216mm;
+	  min-height: 280mm;
 	  padding: 0mm;
-	  margin: 10mm auto;
+	  margin: 5mm auto;
 	  /* border: 1px #D3D3D3 solid; */
-	  border-radius: 5px;
+	  border-radius: 3px;
 	  background: white;
 	  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
  }
@@ -30,13 +30,13 @@ body {
  }
 
  @page {
-	  size: A4;
+	  size: letter;
 	  margin: 0;
  }
  @media print {
 	  html, body {
-			width: 210mm;
-			height: 297mm;        
+			width: 216mm;
+			height: 280mm;        
 	  }
 	  .page {
 			margin: 0;
