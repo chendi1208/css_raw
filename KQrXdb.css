@@ -16,7 +16,7 @@ body {
 	  width: 216mm;
 	  min-height: 300mm;
 	  padding: 0mm;
-	  /*margin: 10mm auto;*/
+	  margin: 10mm auto;
 	  /* border: 1px #D3D3D3 solid; */
 	  border-radius: 5px;
 	  background: white;
@@ -30,7 +30,7 @@ body {
  }
 
  @page {
-	  size: letter;
+	  size: 8.5in 11in;
 	  margin: 0;
  }
  @media print {
@@ -59,9 +59,9 @@ p{ margin-bottom: 1rem }
 
 .gs-header{ color: white !important; -webkit-print-color-adjust: exact; }
 
-.gs-text-header{ background: #2B4071 !important; -webkit-print-color-adjust: exact; }
+.gs-text-header{ background: #C41230 !important; -webkit-print-color-adjust: exact; }
 
-.gs-table-header{ background: #2B4071 !important; -webkit-print-color-adjust: exact; }
+.gs-table-header{ background: #C41230 !important; -webkit-print-color-adjust: exact; }
 
 .gs-accent-header{ background: #65201F !important; -webkit-print-color-adjust: exact; }
 
