@@ -15,7 +15,10 @@ body {
 	  width: 8.5in;
 	  min-height: 11.5in;
 	  padding: 0mm;
-	  margin: 10mm 5mm 0mm;
+	  margin-top: 10mm;
+	  margin-bottom: 0mm;
+	  margin-right: 5mm;
+	  margin-left: 5mm;
 	  /* border: 1px #D3D3D3 solid; */
 	  border-radius: 5px;
 	  background: white;
