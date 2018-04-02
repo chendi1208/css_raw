@@ -3,7 +3,6 @@ body {
 	  height: 100%;
 	  margin: 0;
 	  padding: 0;
-	  background-color: #7D9C47;
 	  font-size: 1.1rem;
 	  line-height: 1.3;
  }
@@ -24,7 +23,7 @@ body {
  }
  .subpage {
 	  padding: 1cm;
-	  border: 5px #3D4880 solid;
+	  border: 5px #ffffff solid;
 	  height: 280mm;
 	  outline: 2cm #3D4880 solid;
  }
