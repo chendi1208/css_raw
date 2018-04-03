@@ -12,8 +12,8 @@ body {
  }
  .page {
 	  position: relative;
-	  width: 10.2in;
-	  min-height: 13.2in;
+	  width: 8.5in;
+	  min-height: 11in;
 	  padding: 0mm;
 	  margin-top: 10mm;
 	  margin-bottom: 0mm;
@@ -27,18 +27,18 @@ body {
  .subpage {
 	  padding: 1cm;
 	  border: 5px #ccc solid;
-	  height: 13in;
+	  height: 11in;
 	  /*outline: 0cm #ffffff solid;*/
  }
 
  @page {
-	  size: 10.2in 13.2in;
+	  size: 8.5in 11in;
 	  margin: 0;
  }
  @media print {
 	  html, body {
-			width: 10.2in;
-			height: 13.2in;        
+			width: 8.5in;
+			height: 11in;        
 	  }
 	  .page {
 			margin: 0;
